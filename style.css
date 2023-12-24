@@ -1,15 +1,16 @@
+section {
+    border: 5px solid #000;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
 .container {
+    background: #09f;
     width: 100px;
     height: 100px;
-    background: white;
-    padding: 10px;
-    font-size: 48px;
-    overflow: scroll;
-}
-
-body {
-    background: #09f;
-    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 50%;
 }
 * {
     box-sizing: border-box;    
