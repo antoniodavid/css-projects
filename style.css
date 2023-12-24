@@ -1,17 +1,21 @@
-section {
-    border: 5px solid #000;
-    width: 250px;
-    height: 1000px;
-    position: relative;
+.parent {
+    display: flex;
 }
 
-.container {
-    background: #09f;
+.item {
+    border: 1px solid;
+    opacity: 0.9;
     width: 100px;
     height: 100px;
-    position: sticky;
-    top: 0;
-    right: 0;
+    background: #09f;
+}
+
+.item:first-child {
+    background: #f90;
+}
+
+.item:nth-child(2) {
+    background: #f09;
 }
 
 * {
