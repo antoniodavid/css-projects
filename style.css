@@ -4,6 +4,7 @@ section {
     height: 250px;
     position: relative;
 }
+
 .container {
     background: #09f;
     width: 100px;
@@ -12,6 +13,7 @@ section {
     inset: 0;
     margin: auto;
 }
+
 * {
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
