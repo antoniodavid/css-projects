@@ -4,9 +4,8 @@
     border-radius: 10px;
     /* Grid */
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 100px 50px 30px 100px 550px;
-
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 100px;
 }
 
 .container div {
